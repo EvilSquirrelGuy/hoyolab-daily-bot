@@ -117,6 +117,7 @@ def getDailyStatus():
         'Connection': 'keep-alive',
         'Referer': f'https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id={config["ACT_ID"]}&lang=en-us',
         'Cache-Control': 'max-age=0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0'
     }
 
     params = (
@@ -158,6 +159,7 @@ def claimReward():
         'Origin': 'https://webstatic-sea.mihoyo.com',
         'Connection': 'keep-alive',
         'Referer': f'https://webstatic-sea.mihoyo.com/ys/event/signin- sea/index.html?act_id={config["ACT_ID"]}&lang=en-us',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0'
     }
 
     params = (
